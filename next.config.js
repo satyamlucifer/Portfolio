@@ -1,5 +1,11 @@
+const nextConfig = {
+  productionBrowserSourceMaps: false, // Disable source maps in production
+};
+
+module.exports = nextConfig;
+
 const path = require('path')
- 
+
 module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
