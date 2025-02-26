@@ -18,7 +18,7 @@
 
 ![](./public/image/screen.png)
 
-## View live preview [here](https://satyam.netlify.app/).
+## View live preview [here](https://portfolio-seven-pink-91.vercel.app/).
 
 ---
 
