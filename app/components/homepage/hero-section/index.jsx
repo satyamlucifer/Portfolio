@@ -122,7 +122,7 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Spring Boot</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Golang</span>
+                <span className="text-amber-300">Go</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Python</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -131,8 +131,6 @@ function HeroSection() {
                 <span className="text-amber-300">Kotlin</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Java</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Go</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">PostgreSQL</span>
                 <span className="text-gray-400">{"', '"}</span>

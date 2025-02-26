@@ -1,6 +1,7 @@
 import adobeXd from '../app/assets/svg/skills/adobe-xd.svg';
 import adobeaudition from '../app/assets/svg/skills/adobeaudition.svg';
 import afterEffects from '../app/assets/svg/skills/after-effects.svg';
+import androidstudio from '../app/assets/svg/skills/androidstudio.svg';
 import angular from '../app/assets/svg/skills/angular.svg';
 import aws from '../app/assets/svg/skills/aws.svg';
 import azure from '../app/assets/svg/skills/azure.svg';
@@ -33,6 +34,7 @@ import illustrator from '../app/assets/svg/skills/illustrator.svg';
 import ionic from '../app/assets/svg/skills/ionic.svg';
 import java from '../app/assets/svg/skills/java.svg';
 import javascript from '../app/assets/svg/skills/javascript.svg';
+import jenkins from '../app/assets/svg/skills/jenkins.svg';
 import julia from '../app/assets/svg/skills/julia.svg';
 import kotlin from '../app/assets/svg/skills/kotlin.svg';
 import lightroom from '../app/assets/svg/skills/lightroom.svg';
@@ -102,12 +104,16 @@ export const skillsImage = (skill) => {
       return adobeXd;
     case 'after effects':
       return afterEffects;
+    case 'android':
+      return androidstudio;
     case 'css':
       return css;
     case 'angular':
       return angular;
     case 'javascript':
       return javascript;
+    case 'jenkins':
+      return jenkins;
     case 'next js':
       return nextJS;
     case 'nuxt js':
