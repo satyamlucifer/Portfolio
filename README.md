@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img height="100" src="https://github.com/satyamlucifer/Portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
+    <img height="100" src="https://github.com/satyamlucifer/Portfolio/app/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
 </p>
 
 ---
@@ -156,7 +156,7 @@ export const personalData = {
   phone: '+919523614427',
   address: 'Noida, India - 201310',
   github: 'https://github.com/satyamlucifer',
-  facebook: 'https://www.facebook.com/satyam.kuamr/',
+  facebook: 'https://www.facebook.com/satyam.Kumar/',
   linkedIn: 'https://www.linkedin.com/in/satyam-kumar-here/',
   twitter: 'https://x.com/satyamrajarya',
   stackOverflow: 'https://stackoverflow.com/users/24150919/satyam-kumar',
