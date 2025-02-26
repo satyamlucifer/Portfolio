@@ -1,11 +1,19 @@
 "use client"
+import { useEffect, useState } from 'react';
 
-import { useEffect } from 'react';
+const GlowCard = ({ children, identifier }) => {
+  const [isMounted, setIsMounted] = useState(false);
 
-const GlowCard = ({ children , identifier}) => {
   useEffect(() => {
+    setIsMounted(true);
+
+    // Ensure this runs only in the browser (client-side)
+    if (typeof window === 'undefined') return;
+
     const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
     const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
+
+    if (!CONTAINER || !CARDS.length) return;
 
     const CONFIG = {
       proximity: 40,
@@ -19,7 +27,6 @@ const GlowCard = ({ children , identifier}) => {
     const UPDATE = (event) => {
       for (const CARD of CARDS) {
         const CARD_BOUNDS = CARD.getBoundingClientRect();
-
         if (
           event?.x > CARD_BOUNDS.left - CONFIG.proximity &&
           event?.x < CARD_BOUNDS.left + CARD_BOUNDS.width + CONFIG.proximity &&
@@ -30,19 +37,15 @@ const GlowCard = ({ children , identifier}) => {
         } else {
           CARD.style.setProperty('--active', CONFIG.opacity);
         }
-
         const CARD_CENTER = [
           CARD_BOUNDS.left + CARD_BOUNDS.width * 0.5,
           CARD_BOUNDS.top + CARD_BOUNDS.height * 0.5,
         ];
-
         let ANGLE =
           (Math.atan2(event?.y - CARD_CENTER[1], event?.x - CARD_CENTER[0]) *
             180) /
           Math.PI;
-
         ANGLE = ANGLE < 0 ? ANGLE + 360 : ANGLE;
-
         CARD.style.setProperty('--start', ANGLE + 90);
       }
     };

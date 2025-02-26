@@ -1,11 +1,14 @@
-// @flow strict
+"use client"; // Ensure this is only a client-side component
 
 import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
 import experience from '../../../assets/lottie/code.json';
-import AnimationLottie from "../../helper/animation-lottie";
-import GlowCard from "../../helper/glow-card";
+import dynamic from 'next/dynamic';
+
+// Dynamically import AnimationLottie with ssr: false
+const AnimationLottie = dynamic(() => import("../../helper/animation-lottie"), { ssr: false });
+const GlowCard = dynamic(() => import("../../helper/glow-card"), { ssr: false });
 
 function Experience() {
   return (
@@ -19,7 +22,7 @@ function Experience() {
       />
 
       <div className="flex justify-center my-5 lg:py-8">
-        <div className="flex  items-center">
+        <div className="flex items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
             Experiences
@@ -55,7 +58,7 @@ function Experience() {
                         </p>
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
-                        <div className="text-violet-500  transition-all duration-300 hover:scale-125">
+                        <div className="text-violet-500 transition-all duration-300 hover:scale-125">
                           <BsPersonWorkspace size={36} />
                         </div>
                         <div>
