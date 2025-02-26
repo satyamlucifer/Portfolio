@@ -59,6 +59,7 @@ import react from '../app/assets/svg/skills/react.svg';
 import ruby from '../app/assets/svg/skills/ruby.svg';
 import selenium from '../app/assets/svg/skills/selenium.svg';
 import sketch from '../app/assets/svg/skills/sketch.svg';
+import spring from '../app/assets/svg/skills/spring.svg';
 import strapi from '../app/assets/svg/skills/strapi.svg';
 import svelte from '../app/assets/svg/skills/svelte.svg';
 import swift from '../app/assets/svg/skills/swift.svg';
@@ -167,6 +168,8 @@ export const skillsImage = (skill) => {
       return ruby;
     case 'swift':
       return swift;
+    case 'spring':
+      return spring;
     case 'adobe audition':
       return adobeaudition;
     case 'aws':

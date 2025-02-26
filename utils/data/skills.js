@@ -10,7 +10,6 @@ export const skillsData = [
   'Python',
   'Django',
   'Spring',
-  'Golang',
   'Next JS',
   'Tailwind',
   'MongoDB',
