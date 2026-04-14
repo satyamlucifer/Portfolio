@@ -1,118 +1,38 @@
 export const projectsData = [
     {
         "id": 1,
-        "name": "User Authentication with Roles and Permissions",
-        "description": "Created the User Authentication with feature for creation and effective allocation of Roles and Permissions.",
-        "tools": ["Django", "PostgreSQL"],
-        "code": "[GitHub Repo Link]",
-        "demo": "[Live Demo Link]",
-        "role": "Backend Developer"
+        "name": "WealthCase — Custom Portfolio Basket Engine",
+        "description": "End-to-end portfolio basket engine enabling multi-stock portfolio creation with weight allocation, automated rebalancing, and real-time performance aggregation. Powers order execution flows across 500+ equities with strict consistency guarantees.",
+        "tools": ["Go", "PostgreSQL", "Redis", "Kafka"],
+        "code": "",
+        "demo": "",
+        "role": "Backend Engineer"
     },
     {
         "id": 2,
-        "name": "Purchase and Supply Management System",
-        "description": "Developed a system to streamline procurement and enhance tracking efficiency.",
-        "tools": ["Django", "PostgreSQL", "React.js"],
-        "code": "[GitHub Repo Link]",
-        "demo": "[Live Demo Link]",
-        "role": "Backend Developer"
+        "name": "Real-Time Notification System",
+        "description": "Scalable event-driven notification pipeline processing live trading events and delivering push notifications across 500K+ devices with 99.9% reliability. Built with Kafka consumers, dead-letter queues, and delivery tracking.",
+        "tools": ["Go", "Apache Kafka", "Firebase Cloud Messaging", "Redis"],
+        "code": "",
+        "demo": "",
+        "role": "Backend Engineer"
     },
     {
         "id": 3,
-        "name": "Demand App",
-        "description": "Built an Android app for customer onboarding and order management.",
-        "tools": ["Kotlin", "Android Studio", "Firebase"],
-        "code": "[GitHub Repo Link]",
-        "demo": "[Live Demo Link]",
-        "role": "Android Developer"
+        "name": "High-Throughput Order Placement System",
+        "description": "Exchange-integrated order management system handling 10,000+ requests per second with sub-50ms P99 latency. Includes idempotent retries, state reconciliation, and strict consistency under peak trading loads.",
+        "tools": ["Go (Gin)", "PostgreSQL", "RabbitMQ", "Redis"],
+        "code": "",
+        "demo": "",
+        "role": "Software Engineer"
     },
     {
         "id": 4,
-        "name": "Rider App",
-        "description": "Implemented Google Maps integration for delivery tracking and shipment management.",
-        "tools": ["Kotlin", "Android Studio", "Google Maps API"],
-        "code": "[GitHub Repo Link]",
-        "demo": "[Live Demo Link]",
-        "role": "Android Developer"
+        "name": "Global Financial Search Service",
+        "description": "Unified search service across equities, ETFs, Futures & Options, and custom baskets. Optimized with PostgreSQL GIN indexes and multi-layer Redis caching to achieve sub-100ms P95 latency.",
+        "tools": ["Go", "PostgreSQL (Full-Text Search)", "Redis"],
+        "code": "",
+        "demo": "",
+        "role": "Backend Engineer"
     },
-    {
-        "id": 5,
-        "name": "Cross-sell Feature",
-        "description": "Developed a feature to facilitate purchasing and exchanging second-hand cars.",
-        "tools": ["React.js", "TypeScript", "Redux"],
-        "code": "[GitHub Repo Link]",
-        "demo": "[Live Demo Link]",
-        "role": "Frontend Developer"
-    },
-    {
-        "id": 6,
-        "name": "Maxico Chille Ads",
-        "description": "Created an ad delivery system to boost engagement for targeted ads.",
-        "tools": ["React.js", "TypeScript", "Next.js"],
-        "code": "[GitHub Repo Link]",
-        "demo": "[Live Demo Link]",
-        "role": "Frontend Developer"
-    },
-    {
-        "id": 7,
-        "name": "Target & Bonus System",
-        "description": "Designed a feature for effective target setting and automated bonus allocation.",
-        "tools": ["Django", "PostgreSQL", "Celery"],
-        "code": "[GitHub Repo Link]",
-        "demo": "[Live Demo Link]",
-        "role": "Backend Developer"
-    },
-
-
-
-    // {
-    //     id: 1,
-    //     name: 'MidMinds Blog Posting Website',
-    //     description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-    //     tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-    //     role: 'Backend Developer',
-    //     code: '',
-    //     demo: '',
-    // },
-    // {
-    //     id: 2,
-    //     name: 'Travel Agency App',
-    //     description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-    //     tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-    //     role: 'Full Stack Developer',
-    //     code: '',
-    //     demo: '',
-    // },
-    // {
-    //     id: 3,
-    //     name: 'AI Powered Real Estate',
-    //     description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-    //     tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-    //     code: '',
-    //     role: 'Full Stack Developer',
-    //     demo: '',
-    // },
-    // {
-    //     id: 4,
-    //     name: '',
-    //     description: "",
-    //     tools: '',
-    //     code: '',
-    //     demo: '',
-    //     role: '',
-    // }
 ];
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-// },

@@ -18,9 +18,9 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Satyam Kumar - Software Developer",
+  title: "Satyam Kumar — Backend Software Engineer | Go, Python, Distributed Systems",
   description:
-    "This is the portfolio of Satyam Kumar. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "Portfolio of Satyam Kumar, a Backend Software Engineer with 3+ years of experience building high-scale, low-latency fintech and trading systems using Go and Python. Specializing in distributed systems, event-driven architectures, and exchange-integrated order management.",
 };
 
 export default function RootLayout({ children }) {
